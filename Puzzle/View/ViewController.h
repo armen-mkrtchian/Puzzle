@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)levelSelectBtnHandler:(id)sender;
+- (IBAction)highscoreBtnHandler:(id)sender;
+- (IBAction)settingsBtnHandler:(id)sender;
+- (IBAction)helpBtnHandler:(id)sender;
+
+
+
 @end
