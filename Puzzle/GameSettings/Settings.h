@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Settings : UIView{
-    
-}
+@interface Settings : UIView
 
 @property (nonatomic,strong)IBOutlet UISlider *soundSlider;
 @property (nonatomic,retain)IBOutlet UISlider *musicSlider;
