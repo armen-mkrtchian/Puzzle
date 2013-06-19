@@ -52,6 +52,9 @@
 		1440EAA61758FA400048CA3C /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		1440EAA91758FF6B0048CA3C /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
 		1440EAAA1758FF6B0048CA3C /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		6F3DD6FC17720C2000B3F578 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		6F3DD6FD17720C2000B3F578 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		6F3DD6FE17720C2000B3F578 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		C09B66D2175A7F48009B528C /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
 		C09B66D3175A7F48009B528C /* Coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coord.m; sourceTree = "<group>"; };
 		C09B66D5175A7F6F009B528C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -153,6 +156,9 @@
 				1440EAA81758FF4F0048CA3C /* Board */,
 				C09B66D5175A7F6F009B528C /* ViewController.h */,
 				C09B66D6175A7F6F009B528C /* ViewController.m */,
+				6F3DD6FC17720C2000B3F578 /* SettingsViewController.h */,
+				6F3DD6FD17720C2000B3F578 /* SettingsViewController.m */,
+				6F3DD6FE17720C2000B3F578 /* SettingsViewController.xib */,
 				C09B66D9175A7F8A009B528C /* ViewController_iPhone.xib */,
 				C09B66D8175A7F8A009B528C /* ViewController_iPad.xib */,
 			);
