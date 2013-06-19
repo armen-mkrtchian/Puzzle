@@ -54,7 +54,8 @@
         self.soundSlider.value = 25;
         [self.soundSlider setContinuous:false];
         [self addSubview:soundSlider];
-      
+        [self.soundSlider addTarget:self action:@selector(getSliderValue:)
+                   forControlEvents:UIControlEventValueChanged];
     //_______________________________________________________________________________________
         
     }
