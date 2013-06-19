@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SettingsViewController.h"
 
 @interface ViewController ()
 
@@ -33,6 +34,9 @@
 }
 
 - (IBAction)settingsBtnHandler:(id)sender {
+    SettingsViewController *gameSettingsVC = [[SettingsViewController alloc] init];
+    [self presentViewController:gameSettingsVC animated:YES completion:^{
+    }];
     NSLog(@"settingsBtnHandler: Implement your code here");
 }
 

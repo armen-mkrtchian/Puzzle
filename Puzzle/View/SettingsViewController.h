@@ -1,18 +1,20 @@
 //
-//  Settings.h
-//  GameSettings
+//  SettingsViewController.h
+//  Puzzle
 //
-//  Created by Hovsep Shakarayn on 08/06/2013.
-//  Copyright (c) 2013 Hovsep Shakarayn. All rights reserved.
+//  Created by Armen Mkrtchyan on 19/06/13.
+//  Copyright (c) 2013 Artak A. Saroyan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface Settings : UIView
+@interface SettingsViewController : UIViewController
 
 @property (nonatomic,strong)IBOutlet UISlider *soundSlider;
 @property (nonatomic,retain)IBOutlet UISlider *musicSlider;
 @property (nonatomic,strong)IBOutlet UILabel *soundLabel;
 @property (nonatomic,strong)IBOutlet UILabel *musicLabel;
+
+- (IBAction)doneBtnHandler:(id)sender;
 
 @end
