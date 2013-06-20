@@ -25,7 +25,6 @@
 		C09B66D7175A7F6F009B528C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09B66D6175A7F6F009B528C /* ViewController.m */; };
 		C09B66DA175A7F8A009B528C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09B66D8175A7F8A009B528C /* ViewController_iPad.xib */; };
 		C09B66DB175A7F8A009B528C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09B66D9175A7F8A009B528C /* ViewController_iPhone.xib */; };
-		CE1481021771F70100D2A667 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1481011771F70100D2A667 /* Settings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,8 +60,6 @@
 		C09B66D6175A7F6F009B528C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C09B66D8175A7F8A009B528C /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
 		C09B66D9175A7F8A009B528C /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
-		CE1481001771F70100D2A667 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
-		CE1481011771F70100D2A667 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +79,6 @@
 		1440EA681758F7870048CA3C = {
 			isa = PBXGroup;
 			children = (
-				CE1481001771F70100D2A667 /* Settings.h */,
-				CE1481011771F70100D2A667 /* Settings.m */,
 				1440EA7A1758F7870048CA3C /* Puzzle */,
 				1440EA731758F7870048CA3C /* Frameworks */,
 				1440EA721758F7870048CA3C /* Products */,
@@ -259,7 +254,6 @@
 				1440EAAB1758FF6B0048CA3C /* BoardView.m in Sources */,
 				C09B66D4175A7F48009B528C /* Coord.m in Sources */,
 				C09B66D7175A7F6F009B528C /* ViewController.m in Sources */,
-				CE1481021771F70100D2A667 /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
