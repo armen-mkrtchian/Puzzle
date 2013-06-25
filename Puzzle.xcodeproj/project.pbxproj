@@ -25,6 +25,8 @@
 		C09B66D7175A7F6F009B528C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09B66D6175A7F6F009B528C /* ViewController.m */; };
 		C09B66DA175A7F8A009B528C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09B66D8175A7F8A009B528C /* ViewController_iPad.xib */; };
 		C09B66DB175A7F8A009B528C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09B66D9175A7F8A009B528C /* ViewController_iPhone.xib */; };
+		C0CBE265177A450100EFC63A /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F3DD6FE17720C2000B3F578 /* SettingsViewController.xib */; };
+		C0CBE267177A451400EFC63A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3DD6FD17720C2000B3F578 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -235,6 +237,7 @@
 				1440EA8B1758F7870048CA3C /* Default-568h@2x.png in Resources */,
 				C09B66DA175A7F8A009B528C /* ViewController_iPad.xib in Resources */,
 				C09B66DB175A7F8A009B528C /* ViewController_iPhone.xib in Resources */,
+				C0CBE265177A450100EFC63A /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +257,7 @@
 				1440EAAB1758FF6B0048CA3C /* BoardView.m in Sources */,
 				C09B66D4175A7F48009B528C /* Coord.m in Sources */,
 				C09B66D7175A7F6F009B528C /* ViewController.m in Sources */,
+				C0CBE267177A451400EFC63A /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +337,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
 				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -344,6 +349,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Puzzle/Puzzle-Prefix.pch";
 				INFOPLIST_FILE = "Puzzle/Puzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
