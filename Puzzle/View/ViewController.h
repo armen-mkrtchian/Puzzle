@@ -15,6 +15,4 @@
 - (IBAction)settingsBtnHandler:(id)sender;
 - (IBAction)helpBtnHandler:(id)sender;
 
-
-
 @end

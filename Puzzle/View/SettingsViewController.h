@@ -14,7 +14,11 @@
 @property (nonatomic,retain)IBOutlet UISlider *musicSlider;
 @property (nonatomic,strong)IBOutlet UILabel *soundLabel;
 @property (nonatomic,strong)IBOutlet UILabel *musicLabel;
+@property (retain, nonatomic) IBOutlet UILabel *procentOfMusic;
+@property (retain, nonatomic) IBOutlet UILabel *procentOfSound;
 
 - (IBAction)doneBtnHandler:(id)sender;
+- (IBAction)changeMusicSlider:(id)sender;
+- (IBAction)changeSoundSlider:(id)sender;
 
 @end
